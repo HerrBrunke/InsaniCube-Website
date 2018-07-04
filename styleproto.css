@@ -5,42 +5,13 @@ body {
 	font-family: 'Indie Flower' , cursive;
 	overflow-x: hidden;
 }
-h1 {
-	text-align: center;
-}
-p {
-	text-align: center;
-}
 #content {
 	padding: 15px;
 	transition: margin-left 0.7s;
 	overflow: hidden;
 	width: 100%;
 }
-img {
-	width:98%;
-	height: 98%;
-}
-ul {
-	list-style: none;
-}
-ul li p {
-	font-size: 20px;
-	clear: both;
-	margin: 0; 
-	line-height: 20%;
-}
-ul li img {
-	width: 20%;
-	height: 20%;
-
-}
-.nav .logo {
-	width: 250px;
-	height: 250px;
-}
 .slide a {
-	position: fixed;
 	color: #000;
 	font-size: 36px;
 }
@@ -70,7 +41,6 @@ ul li img {
 	flex-direction: row;
 	padding: 20px 30px;
 	font-size: 30px;
-	text-align: right;
 	text-decoration: none;
 	color: #ccc;
 	border-bottom: 1px solid #ccc;
@@ -78,12 +48,11 @@ ul li img {
 .nav a.item {
 	display: flex;
 	flex-direction: row;
-	padding: 18px 20px;
+	padding: 20px 30px;
 	font-size: 16px;
-	text-align: right;
 	text-decoration: none;
 	color: #ccc;
-	border-top: 5px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 .nav a.item:hover {
 	color: #fff;
@@ -93,3 +62,4 @@ ul li img {
 	padding-right: 10px;
 	font-size: 35px;
 }
+
