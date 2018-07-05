@@ -6,14 +6,27 @@
 	<script src="script.js" type="text/javascript"></script> 
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	<title> InsaniCube <3 </title>
+	<link rel="icon" href="./images/test01_icon.ico" type="image/x-icon">
 <script>
+	var menuOpen = false;
+	function tryMenu(){
+		
+		if(!menuOpen){
+			openSlideMenu();
+		}
+		else{
+			closeSlideMenu();
+		}
+	}
 	function openSlideMenu(){
 		document.getElementById('menu').style.width = '250px';
 		document.getElementById('content').style.marginLeft = '250px';
+		menuOpen = true;
 	}
 	function closeSlideMenu(){
 		document.getElementById('menu').style.width = '0px';
 		document.getElementById('content').style.marginLeft = '0px';
+		menuOpen = false;
 	}
 </script>
 </head>
@@ -27,12 +40,16 @@
 		
 		<!-- SlideButtons -->
 		<span class="slide">
-			<a href="#" onclick="openSlideMenu()">
+			<a href="#" onclick="tryMenu()">
 				<i class="fas fa-bars"></i>
 			</a>
 		</span>
+		
+		<!-- Opener -->
+		<h1> - HighScore LeaderBoards - </h1>
+		
 		<div id="menu" class="nav">
-			<a href="#" class="close" onclick="closeSlideMenu()">
+			<a href="#" class="close" onclick="tryMenu()">
 				<i class="fas fa-times"></i>
 			</a>
 			<a> <img src="Images/test02.png" alt="InsaniCube!"/ class="logo"></a>
@@ -41,17 +58,13 @@
 			<a href="./leaderboards.html" class="navitems"><i class="fa fa-list-ol"></i>-Leaderboards-</a>
 			<a href="./artattack.html" class="navitems"><i class="fab fa-envira"></i>-ArtAttack-</a>
 			<a href="./impressum.html" class="navitems"><i class="fab fa-empire icon"></i>-Impressum-</a>
-			<a href="x" class="item"><i class="fab fa-facebook icon"></i>FaceBook</a>
+			<a href="https://www.facebook.com/insanicube" class="item" target="_blank"><i class="fab fa-facebook icon"></i>FaceBook</a>
 			<a href="https://twitter.com/insanicube" class="item" target="_blank"><i class="fab fa-twitter icon"></i>Twitter</a>
-			<a href="x" class="item"><i class="fab fa-instagram icon"></i>Instagram</a>
+			<a href="https://www.instagram.com/insanicube/" class="item" target="_blank"><i class="fab fa-instagram icon"></i>Instagram</a>
 			<a href="x" class="item"><i class="fab fa-youtube icon"></i>YouTube</a>
 		</div>
 		
 	</div> <!-- EndContent -->	
 	
-	<div id="leaderboards">
-	<h1> - HighScore LeaderBoards - </h1>
-	
-	</div>
 </body>
 </html>
