@@ -4,6 +4,7 @@
 body {
 	font-family: 'Indie Flower' , cursive;
 	overflow-x: hidden;
+
 }
 header {
 	position: center fixed;
@@ -23,8 +24,10 @@ p {
 	width: 100%;
 }
 img {
-	width:90%;
+	width: 10%;
 	height: auto;
+	float: right;
+	margin-top: 0px;
 }
 ul {
 	list-style: none;
@@ -70,6 +73,9 @@ ul li img {
 	overflow-x: hidden;
 	padding-top: 60px;
 	transition: 0.7s;
+}
+.nav i.navitems {
+	font-size: 2px;
 }
 .nav a.navitems {
 	display: flex;

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/* style.css */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Indie Flower' , cursive;
+
+}
+#cube {
+	margin: 0;
+
+	display: flex;
+
+	/* This centers our sketch horizontally. */
+	justify-content: center;
+
+	/* This centers our sketch vertically. */
+	align-items: center;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	position: center-fixed;
+}
+
+img{
+	width: 10%;
+	height: auto;
+	float: right;
+	margin-top: 0px;
+}
