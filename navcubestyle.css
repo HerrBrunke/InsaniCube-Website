@@ -10,6 +10,9 @@ body {
   font-family: 'Indie Flower' , cursive;
 
 }
+#p5_loading {
+	position: center;
+}
 #cube {
 	margin: 0;
 

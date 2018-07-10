@@ -20,7 +20,7 @@ p {
 #content {
 	padding: 15px;
 	transition: margin-left 0.7s;
-	overflow: hidden;
+	overflow: scroll;
 	width: 100%;
 }
 img {
@@ -75,13 +75,12 @@ ul li img {
 	transition: 0.7s;
 }
 .nav i.navitems {
-	font-size: 2px;
 }
 .nav a.navitems {
 	display: flex;
 	flex-direction: row;
 	padding: 18px 20px;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: right;
 	text-decoration: none;
 	color: #ccc;
@@ -101,7 +100,7 @@ ul li img {
 	color: #000000;
 	transition: 2.5s;
 	background: #ffffff;
-	font-size: 27px;
+	font-size: 25px;
 }
 .nav a.item:hover {
 	color: #F5A9F2;
