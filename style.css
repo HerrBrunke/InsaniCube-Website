@@ -60,6 +60,11 @@ ul li img {
 	height: auto;
 	border-right: 1px solid #000000;
 }
+.center {
+	width: 400px; 
+	height: auto;
+}
+
 .nav .logo {
 	width: 250px;
 	height: 250px;
