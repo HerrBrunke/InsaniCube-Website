@@ -1,0 +1,9 @@
+#
+# Example .htaccess file
+#
+
+# Umleitung von Fehlermeldungen:
+#
+# ErrorDocument	404	/error/404.php
+
+
