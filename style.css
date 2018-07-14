@@ -21,9 +21,13 @@ h1 {
 p {
 	letter-spacing: 5px;
 	position: center;
-	margin-left: 100px;
+	margin-left: 10px;
 	text-align: center;
 	font-size: 25px;
+}
+iframe {
+	margin-left: 420px;
+
 }
 #sitecontent {
 	margin-top: 100px;
