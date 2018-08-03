@@ -95,9 +95,14 @@ ul li img {
 	background-color: #111;
 	opacity: .9;
 	overflow-x: scroll;
+	overflow-y: scroll;
 	padding-top: 40px;
 	padding-bottom: 10px;
 	transition: 0.7s;
+}
+.nav::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
 }
 .nav i.navitems {
 }
