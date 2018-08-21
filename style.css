@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Bungee%5E');
 
 
 body {
@@ -11,7 +11,7 @@ header {
 	
 }
 h1 {
-	font-size: 60px;
+	font-size: 55px;
 	position: center;
 	margin-top: 30px;
 	margin-bottom: 100px;
@@ -23,7 +23,7 @@ p {
 	position: center;
 	margin-left: 10px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 22px;
 }
 iframe {
 	margin-left: 480px;
@@ -33,12 +33,12 @@ iframe {
 	margin-top: 100px;
 }
 #sitecontent a {
-	font-size: 23px;
+	font-size: 21px;
 	text-decoration: none;
 	color: #848484;
 }
 #sitecontent a:hover {
-	font-size: 25px;
+	font-size: 23px;
 	color: #DF0101;
 	transition: 1s;
 }
@@ -52,7 +52,7 @@ ul {
 	list-style: none;
 }
 ul li p {
-	font-size: 15px;
+	font-size: 13px;
 	clear: both;
 	margin: 0; 
 	line-height: 20%;
@@ -74,7 +74,7 @@ ul li img {
 .slide a {
 	position: fixed;
 	color: #000;
-	font-size: 45px;
+	font-size: 38px;
 	
 }
 .nav .close {
@@ -82,7 +82,7 @@ ul li img {
 	top: 8px;
 	right: 22px;
 	margin-left: 50px;
-	font-size: 30px;
+	font-size: 26px;
 	color: #ccc;
 }
 .nav {
@@ -95,9 +95,14 @@ ul li img {
 	background-color: #111;
 	opacity: .9;
 	overflow-x: scroll;
+	overflow-y: scroll;
 	padding-top: 40px;
 	padding-bottom: 10px;
 	transition: 0.7s;
+}
+.nav::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
 }
 .nav i.navitems {
 }
@@ -105,7 +110,7 @@ ul li img {
 	display: flex;
 	flex-direction: row;
 	padding: 18px 20px;
-	font-size: 22px;
+	font-size: 19px;
 	text-align: right;
 	text-decoration: none;
 	color: #ccc;
@@ -115,7 +120,7 @@ ul li img {
 	display: flex;
 	flex-direction: row;
 	padding: 18px 20px;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: right;
 	text-decoration: none;
 	color: #ccc;
@@ -125,13 +130,13 @@ ul li img {
 	color: #000000;
 	transition: 2s;
 	background: #ffffff;
-	font-size: 23px;
+	font-size: 21px;
 }
 .nav a.item:hover {
 	color: #F5A9F2;
 	transition: 0.4s;
 	background: #000000;
-	font-size: 19px;
+	font-size: 17px;
 }
 .nav .icon {
 	padding-right: 10px;
