@@ -4,15 +4,28 @@
 body {
 	font-family: 'Bungee' , cursive;
 	overflow-x: hidden;
-	background-color: #483D8B;
+	background-color: #733987;
 	color: #FFFFFF ;
 }
 header {
 	position: center;
 	
 }
+footer {
+	margin-left: 100px;
+}
+footer a{
+	margin-left: 60px;
+	font-size: 35px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer a:hover{
+	color: #F99CD0;
+	transition: 1.5s;
+}
 h1 {
-	font-size: 60px;
+	font-size: 70px;
 	position: center;
 	margin-top: 30px;
 	margin-bottom: 50px;
