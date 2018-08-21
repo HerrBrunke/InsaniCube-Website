@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee%5E');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
 
 
 body {
-	font-family: 'Indie Flower' , cursive;
+	font-family: 'Bungee' , cursive;
 	overflow-x: hidden;
-	background-color: #663399;
+	background-color: #483D8B;
 	color: #FFFFFF ;
 }
 header {
@@ -12,15 +12,15 @@ header {
 	
 }
 h1 {
-	font-size: 55px;
+	font-size: 60px;
 	position: center;
 	margin-top: 30px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	margin-left: 160px;
 	text-align: center;
 }
 p {
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	position: center;
 	margin-left: 10px;
 	text-align: center;
@@ -31,7 +31,7 @@ iframe {
 
 }
 #sitecontent {
-	margin-top: 100px;
+	margin-top: 40px;
 }
 #sitecontent a {
 	font-size: 21px;
@@ -111,7 +111,7 @@ ul li img {
 	display: flex;
 	flex-direction: row;
 	padding: 18px 20px;
-	font-size: 19px;
+	font-size: 14px;
 	text-align: right;
 	text-decoration: none;
 	color: #ccc;
@@ -121,7 +121,7 @@ ul li img {
 	display: flex;
 	flex-direction: row;
 	padding: 18px 20px;
-	font-size: 12px;
+	font-size: 9px;
 	text-align: right;
 	text-decoration: none;
 	color: #ccc;
@@ -131,13 +131,13 @@ ul li img {
 	color: #000000;
 	transition: 2s;
 	background: #ffffff;
-	font-size: 21px;
+	font-size: 16px;
 }
 .nav a.item:hover {
 	color: #F5A9F2;
 	transition: 0.4s;
 	background: #000000;
-	font-size: 17px;
+	font-size: 11px;
 }
 .nav .icon {
 	padding-right: 10px;
