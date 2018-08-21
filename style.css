@@ -4,7 +4,8 @@
 body {
 	font-family: 'Indie Flower' , cursive;
 	overflow-x: hidden;
-
+	background-color: #663399;
+	color: #FFFFFF ;
 }
 header {
 	position: center;
@@ -31,16 +32,15 @@ iframe {
 }
 #sitecontent {
 	margin-top: 100px;
-	color: ;
 }
 #sitecontent a {
 	font-size: 21px;
 	text-decoration: none;
-	color: #848484;
+	color: #D8BFD8;
 }
 #sitecontent a:hover {
 	font-size: 23px;
-	color: #DF0101;
+	color: #FFC0CB;
 	transition: 1s;
 }
 img {
@@ -74,7 +74,7 @@ ul li img {
 }
 .slide a {
 	position: fixed;
-	color: #000;
+	color: #FFFFFF;
 	font-size: 38px;
 	
 }
